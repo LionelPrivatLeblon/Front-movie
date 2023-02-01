@@ -11,7 +11,7 @@ function Home() {
 
   // get movies from the backend
   useEffect(() => {
-    fetch("http://localhost:3000/movies")
+    fetch("https://back-movie-one.vercel.app/movies")
       .then((response) => response.json())
       .then((data) => {
         setmoviesData(data.movies);
