@@ -63,7 +63,7 @@ function Movie(props) {
         </div>
         <div className={styles.iconContainer}>
           <span className={styles.vote}>
-            {stars} ({data.vote_average})({props.vote_count})
+            {stars} ({props.vote_average})({props.vote_count})
           </span>
           <span>
             {personalStars} ({personalNote})
