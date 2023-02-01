@@ -105,7 +105,7 @@ function Home() {
         overview={truncateStr(data.overview, 250)}
         poster_path={`https://image.tmdb.org/t/p/w500${data.poster_path}`}
         vote_average={data.vote_average}
-        voteCount={data.voteCount}
+        vote_count={data.vote_count}
       />
     );
   });
